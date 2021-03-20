@@ -3,8 +3,10 @@ package common;
 public class ReverseString {
 
     public static void main(String[] args){
-        String input = "abc";
-        System.out.println(input);
+        String str = "abc";
+        StringBuffer sbr = new StringBuffer(str);
+        sbr.reverse();
+        System.out.println(sbr);
     }
 
 }
