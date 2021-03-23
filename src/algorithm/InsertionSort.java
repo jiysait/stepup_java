@@ -16,6 +16,7 @@ public class InsertionSort {
             while(j >= 0 && arr[j] > key) {
                 // 비교가 시작하자마자 key의 값 보다 왼쪽 옆 요소가 더 작으면 더이상 루프를 진행 할 이유가 없다
                 // 왜냐하면 key를 기준으로 왼쪽은 밖의 루프를 돌면서 오름차순으로 정리가되어지고 있는 sub array 이기 때문이다
+                loopCount++;
                 arr[j + 1] = arr[j];
                 j--;
             }
