@@ -1,6 +1,6 @@
 package common;
 
-public class RecursiveFactorial {
+public class RecursionFactorial {
 
     public static void main(String[] args) {
         // 0! = 1
